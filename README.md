@@ -36,3 +36,4 @@ stop your MMDVMHost process and run (you will need the root password):
 and wait to complete the upgrading process.
 
 3. 在树莓派升级中继板固件
+https://github.com/VR2VYE/MMDVM_man
