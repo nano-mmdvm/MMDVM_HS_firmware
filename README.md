@@ -15,7 +15,7 @@ rpi-rw 设置为读写模式
 cd ~  
 curl -OL https://raw.github.com/VR2VYE/fw_nanohs_for_rpi/master/install_fw_duplex.sh  
 chmod +x install_fw_duplex.sh  
-sh ./install_fw_duplex.sh  
+./install_fw_duplex.sh  
   
 在树莓派升级Nano_hotSPOT 热点板固件  
   
