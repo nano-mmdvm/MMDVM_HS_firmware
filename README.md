@@ -19,9 +19,12 @@ curl -OL https://raw.github.com/VR2VYE/fw_nanohs_for_rpi/master/install_fw_duple
 chmod +x install_fw_duplex.sh  
 ./install_fw_duplex.sh  
 
-如果热插拔GPIO的热点板，需要使用以下命令停止所有服务（等同于重启）,再执行./install_fw_duplex.sh ：
-If the hot is plugged in hotspot GPIO,then stop MMDVMHost service use(Same as restart pi-star),then run ./install_fw_duplex.sh :
-sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service
+如果热插拔GPIO的热点板，需要使用以下命令停止所有服务（等同于重启）,再执行./install_fw_duplex.sh ： 
+If the hot is plugged in hotspot GPIO,then stop MMDVMHost service use(Same as restart pi-star),then run ./install_fw_duplex.sh :  
+sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service  
+
+![图片装载中](/nano_duplex_cmd.png)   
+[点击查看大图](http://www.aprspi.org/images/support/viewlog_live_log.png) 
   
 ###在树莓派升级Nano_hotSPOT 热点板固件  
 Upgrade Nano_hotSPOT firmware Raspberry Pi 3B or Pi ZERO
