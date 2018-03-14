@@ -11,7 +11,7 @@ sudo pistar-nanohsflash nano_hs #3.4.11+
 如果失败，则尝试手工方式 ST-LINK   
 或者跳线GPIO15->BOOT, GPIO16->RST 再执行以上命令  
   
-###在树莓派3B或ZERO升级双工板固件 
+### 在树莓派3B或ZERO升级双工板固件   
 Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO   
 rpi-rw   
 cd ~  
