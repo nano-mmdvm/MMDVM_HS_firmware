@@ -12,19 +12,25 @@ sudo pistar-nanohsflash nano_hs #3.4.11+
 或者跳线GPIO15->BOOT, GPIO16->RST 再执行以上命令  
   
 ###在树莓派3B或ZERO升级双工板固件 
-Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO 
+Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO   
 rpi-rw   
 cd ~  
 curl -OL https://raw.github.com/VR2VYE/fw_nanohs_for_rpi/master/install_fw_duplex.sh  
 chmod +x install_fw_duplex.sh  
+#Stop MMDVMHost serice if necessary
+sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service
 ./install_fw_duplex.sh  
 
-如果热插拔GPIO的热点板，需要使用以下命令停止所有服务（等同于重启）,再执行./install_fw_duplex.sh ： 
-If the hot is plugged in hotspot GPIO,then stop MMDVMHost service use(Same as restart pi-star),then run ./install_fw_duplex.sh :  
-sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service  
-
 ![图片装载中](/nano_duplex_cmd.png)   
-[点击查看大图](http://www.aprspi.org/images/support/viewlog_live_log.png) 
+[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_cmd.png) 
+
+Startup MMDVMHost service  
+sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo systemctl start mmdvmhost.service  
+![图片装载中](/nano_duplex_restart.png)   
+[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_restart.png) 
+
+![图片装载中](/nano_duplex_ui.png)     
+[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_ui.png) 
   
 ###在树莓派升级Nano_hotSPOT 热点板固件  
 Upgrade Nano_hotSPOT firmware Raspberry Pi 3B or Pi ZERO
@@ -53,4 +59,4 @@ See https://github.com/VR2VYE/MMDVM_man
 持续完善中。。。  
 Building...
 
-for English coming...   
+for English Coming...   
