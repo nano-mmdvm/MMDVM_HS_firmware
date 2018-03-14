@@ -54,7 +54,9 @@ Wait for complete
   
 ###在树莓派升级中继板固件  
 Upgrade Repeater Kit firmware in Raspberry Pi 3B or Pi ZERO
-See https://github.com/VR2VYE/MMDVM_man  
+https://github.com/VR2VYE/STM32_DVM_fw.git  
+
+See also https://github.com/VR2VYE/MMDVM_man   
 
 持续完善中。。。  
 Building...
