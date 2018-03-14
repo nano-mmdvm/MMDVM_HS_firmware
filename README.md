@@ -32,7 +32,7 @@ sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo s
 ![图片装载中](/nano_duplex_ui.png)     
 [点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_ui.png) 
   
-###在树莓派升级Nano_hotSPOT 热点板固件  
+###在树莓派升级Nano_hotSPOT 热点板固件   
 Upgrade Nano_hotSPOT firmware Raspberry Pi 3B or Pi ZERO
 rpi-rw  
 cd ~  
@@ -54,7 +54,9 @@ Wait for complete
   
 ###在树莓派升级中继板固件  
 Upgrade Repeater Kit firmware in Raspberry Pi 3B or Pi ZERO
-See https://github.com/VR2VYE/MMDVM_man  
+https://github.com/VR2VYE/STM32_DVM_fw.git  
+
+See also https://github.com/VR2VYE/MMDVM_man   
 
 持续完善中。。。  
 Building...
