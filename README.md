@@ -16,49 +16,48 @@ Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO
 rpi-rw   
 cd ~  
 curl -OL https://raw.github.com/VR2VYE/fw_nanohs_for_rpi/master/install_fw_duplex.sh  
-chmod +x install_fw_duplex.sh  
-#Stop MMDVMHost serice if necessary
-sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service
+chmod +x install_fw_duplex.sh    
+#Stop MMDVMHost serice if necessary  
+sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service  
+
 ./install_fw_duplex.sh  
 
 ![图片装载中](/nano_duplex_cmd.png)   
-[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_cmd.png) 
+[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_cmd.png)  
 
-Startup MMDVMHost service  
-sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo systemctl start mmdvmhost.service  
-![图片装载中](/nano_duplex_restart.png)   
-[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_restart.png) 
+Startup MMDVMHost service   
+sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo systemctl start mmdvmhost.service    
 
-![图片装载中](/nano_duplex_ui.png)     
-[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_ui.png) 
+![图片装载中](/nano_duplex_ui.png)      
+[点击查看大图](https://github.com/bi7jta/MMDVM_HS_firmware/raw/master/nano_duplex_ui.png)   
   
-### 在树莓派升级Nano_hotSPOT 热点板固件   
-Upgrade Nano_hotSPOT firmware Raspberry Pi 3B or Pi ZERO
-rpi-rw  
-cd ~  
-curl -OL https://raw.github.com/VR2VYE/fw_nanohs_for_rpi/master/install_fw_nanohs_for_rpi.sh  
+### 在树莓派升级Nano_hotSPOT 热点板固件     
+Upgrade Nano_hotSPOT firmware Raspberry Pi 3B or Pi ZERO  
+rpi-rw    
+cd ~    
+curl -OL https://raw.github.com/VR2VYE/fw_nanohs_for_rpi/master/install_fw_nanohs_for_rpi.sh    
   
-使用脚本可执行：  
-make the script executable:  
-chmod +x install_fw_nanohs_for_rpi.sh  
+使用脚本可执行：    
+make the script executable:    
+chmod +x install_fw_nanohs_for_rpi.sh    
   
-Stop MMDVMHost Serive（可选）：  
-sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service
+Stop MMDVMHost Serive（可选）：    
+sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service   
   
-执行升级脚本： 
-Run scirpt 
-./install_fw_nanohs_for_rpi.sh  
+执行升级脚本：   
+Run scirpt   
+./install_fw_nanohs_for_rpi.sh    
   
-等待升级完成  
+等待升级完成    
 Wait for complete 
   
-### 在树莓派升级中继板固件  
-Upgrade Repeater Kit firmware in Raspberry Pi 3B or Pi ZERO
-https://github.com/VR2VYE/STM32_DVM_fw.git  
+### 在树莓派升级中继板固件    
+Upgrade Repeater Kit firmware in Raspberry Pi 3B or Pi ZERO   
+https://github.com/VR2VYE/STM32_DVM_fw.git    
 
-See also https://github.com/VR2VYE/MMDVM_man   
+See also https://github.com/VR2VYE/MMDVM_man     
+ 
+持续完善中。。。    
+Building...   
 
-持续完善中。。。  
-Building...
-
-for English Coming...   
+for English Coming...      
