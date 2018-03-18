@@ -5,7 +5,7 @@ install_fw_duplex.sh :Adapted to the duplex board
 install_fw_nanohs_for_rpi.sh :Only adapted to nano_hotSPOT for raspberry pi,not for NanoPi NEO   
   
 ## Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO(EN)   
-See https://github.com/nano-mmdvm/MMDVM_HS_firmware/master/how-to-upgrade-nano-duplex-fw.md  
+See https://github.com/nano-mmdvm/MMDVM_HS_firmware/blob/master/how-to-upgrade-nano-duplex-fw.md
   
  
 ## Upgrade Nano_hotSPOT firmware in NanoPi NEO

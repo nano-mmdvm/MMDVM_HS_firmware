@@ -1,1 +1,1 @@
-#
+#FOR DIY to USE Nano hotSPOT

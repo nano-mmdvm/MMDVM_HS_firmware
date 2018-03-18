@@ -25,7 +25,7 @@ curl -OL https://raw.github.com/nano-mmdvm/MMDVM_HS_firmware/master/onekeyflash_
 
 
 ![Image loading](/nano_duplex_cmd.png)   
-[View large image](https://github.com/nano-mmdvm/MMDVM_HS_firmware/raw/master/nano_duplex_cmd.png)  
+[View large image](https://github.com/nano-mmdvm/MMDVM_HS_firmware/raw/master/images/nano_duplex_cmd.png)  
 
-![图片装载中](/nano_duplex_ui.png)      
-[点击查看大图](https://github.com/nano-mmdvm/MMDVM_HS_firmware/raw/master/nano_duplex_ui.png)   
+![Image loading](/nano_duplex_ui.png)      
+[View large image](https://github.com/nano-mmdvm/MMDVM_HS_firmware/raw/master/images/nano_duplex_ui.png)   
