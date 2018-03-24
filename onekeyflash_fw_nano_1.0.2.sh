@@ -23,9 +23,9 @@ FW_VERSION="v1.0.2"
 MAC_DEV_USB_SER="/dev/cu.usbmodem1441"
 	
 # Download latest firmware for Nano hotSPOT
-curl -OL https://github.com/nano-mmdvm/MMDVM_HS_firmware/nano_hotSPOT_v1.0.2RSSI_fw.bin
+curl -OL https://raw.githubusercontent.com/nano-mmdvm/MMDVM_HS_firmware/master/nano_hotSPOT_v1.0.2RSSI_fw.bin
 
- Download STM32F10X_Lib (only for binary tools)
+# Download STM32F10X_Lib (only for binary tools)
 if [ ! -d "./STM32F10X_Lib/utils" ]; then
   git clone https://github.com/juribeparada/STM32F10X_Lib
 fi
@@ -74,7 +74,7 @@ fi
 sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service 
 
 # Upload the firmware
-eval sudo $STM32FLASH -v -w nano_hotspot_fw.bin -g 0x0 -R -i 200,-3,3:-200,3 /dev/ttyAMA0
+eval sudo $STM32FLASH -v -w nano_hotSPOT_v1.0.2RSSI_fw.bin -g 0x0 -R -i 200,-3,3:-200,3 /dev/ttyAMA0
 
 sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo systemctl start mmdvmhost.service
 

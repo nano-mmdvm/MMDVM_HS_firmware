@@ -1,4 +1,6 @@
 Linux or macOS Download the script (*.sh) that matches with your ZUMspot/MMDVM_HS board:  
+
+#Upgrade nano 
  
 ## Definition：  
 install_fw_duplex.sh :Adapted to the duplex board 
@@ -28,8 +30,21 @@ sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo sys
   
 Run scirpt   
 ./install_fw_nanohs_for_rpi.sh    
+
+
+
+# Other
+## Flash nano hotSPOT firmware to v1.0.2
+rpi-rw    
+cd ~     
+curl -OL https://raw.githubusercontent.com/nano-mmdvm/MMDVM_HS_firmware/master/onekeyflash_fw_nano_1.0.2.sh  
+chmoe +x onekeyflash_fw_nano_1.0.2.sh  
+./onekeyflash_fw_nano_1.0.2.sh  
    
-Wait for complete 
-  
+## test show version number
+tail -100f /var/log/pi-star/MMDVM-2018-03-24.log   
 Building...   
+
+by bi7jta@gmail.com  
+facebook https://www.facebook.com/winters.cn  
    
