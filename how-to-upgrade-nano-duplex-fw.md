@@ -1,4 +1,5 @@
 # Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO   
+*NOTE: Now 3.4.11 not support use pistar-* upgrade GPIO Type Duplex,maybe come soon
 
 ## Change system to Read and Write  
 rpi-rw   

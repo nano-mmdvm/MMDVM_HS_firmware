@@ -9,11 +9,12 @@ See https://github.com/nano-mmdvm/MMDVM_HS_firmware/blob/master/how-to-upgrade-n
   
  
 ## Upgrade Nano_hotSPOT firmware in NanoPi NEO
-sudo pistar-zumspotflash nano_hs #3.4.10  
-sudo pistar-nanohsflash nano_hs #3.4.11+  
-If fail,try to use ST-LINK, or   
-Fly line to shot GPIO15->BOOT, GPIO16->RST,then run upgrade command again    
+See https://github.com/nano-mmdvm/MMDVM_HS_firmware/blob/master/how-to-upgrade-nano-hs-fw.md    
     
+   
+## Upgrade Repeater Kit firmware in Raspberry Pi 3B or Pi ZERO   
+See https://github.com/VR2VYE/STM32_DVM_fw.git    
+  
 ## Upgrade Nano_hotSPOT firmware Raspberry Pi 3B or Pi ZERO  
 rpi-rw    
 cd ~    
@@ -29,10 +30,6 @@ Run scirpt
 ./install_fw_nanohs_for_rpi.sh    
    
 Wait for complete 
-   
-## Upgrade Repeater Kit firmware in Raspberry Pi 3B or Pi ZERO   
-https://github.com/VR2VYE/STM32_DVM_fw.git    
-  
   
 Building...   
    
