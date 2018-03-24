@@ -45,6 +45,8 @@ chmoe +x onekeyflash_fw_nano_1.0.2.sh
 tail -100f /var/log/pi-star/MMDVM-2018-03-24.log   
 Building...   
 
+![Image loading](/forward.png)   
+
 by bi7jta@gmail.com  
 facebook https://www.facebook.com/winters.cn  
    
