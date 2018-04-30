@@ -1,5 +1,5 @@
 # Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO   
-*NOTE: Now 3.4.11 not support use pistar-* upgrade GPIO Type Duplex,maybe come soon
+*NOTE: Now 3.4.11 not support use pistar-* upgrade GPIO Type Duplex,maybe come soon   
 *source code from https://github.com/juribeparada/MMDVM_HS/releases
 
 ## Change system to Read and Write  
