@@ -1,5 +1,6 @@
 # Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO   
 *NOTE: Now 3.4.11 not support use pistar-* upgrade GPIO Type Duplex,maybe come soon
+*source code from https://github.com/juribeparada/MMDVM_HS/releases
 
 ## Change system to Read and Write  
 rpi-rw   
@@ -22,7 +23,9 @@ sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo s
 
 ## onekeyflash_fw_duplex.sh  
 NOTE: First run rpi-rw   
-curl -OL https://raw.github.com/nano-mmdvm/MMDVM_HS_firmware/master/onekeyflash_fw_duplex.sh  
+curl -OL https://raw.githubusercontent.com/nano-mmdvm/MMDVM_HS_firmware/master/onekeyflash_fw_duplex.sh
+chmod +x onekeyflash_fw_duplex.sh
+./onekeyflash_fw_duplex.sh
 
 
 ![Image loading](/nano_duplex_cmd.png)   

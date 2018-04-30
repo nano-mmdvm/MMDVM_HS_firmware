@@ -13,19 +13,16 @@ Fly line to shot GPIO15->BOOT, GPIO16->RST,then run upgrade command again
 This way not need rest OS,can use in hot plugin GIPO hotSPOT  
 rpi-rw  
 #this scrip if for v1.3.3,other version must be change number  
-curl -OL  curl -OL https://github.com/juribeparada/MMDVM_HS/releases/download/v1.3.3/install_fw_nanohs.sh
-chmod +x install_fw_nanohs.sh
-
-
-
+curl -OL https://github.com/juribeparada/MMDVM_HS/releases/download/v1.3.3/install_fw_nanohs.sh  
+chmod +x install_fw_nanohs.sh  
 
 ## Stop MMDVMHost serice if necessary
 rpi-rw    
 sudo pistar-watchdog.service stop; sudo systemctl stop mmdvmhost.timer; sudo systemctl stop mmdvmhost.service  
 
-## Flash to lastest version  
-#./install_fw_nanohs.sh  
-./onkeyflash_fw_nano.sh
+## Flash to lastest version   
+#./install_fw_nanohs.sh   
+./onkeyflash_fw_nano.sh  
 
 ## Startup MMDVMHost service   
 sudo pistar-watchdog.service start; sudo systemctl start mmdvmhost.timer; sudo systemctl start mmdvmhost.service    
