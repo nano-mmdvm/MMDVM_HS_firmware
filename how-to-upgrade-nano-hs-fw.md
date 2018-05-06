@@ -10,7 +10,7 @@ If fail,try to use ST-LINK, or
 Fly line to shot GPIO15->BOOT, GPIO16->RST,then run upgrade command again   
 
 ![Image loading...](/images/Nano_hotSPOT_blueBOX_frimware_UpgradeGuide_EN.jpg)     
-[View large Image](https://github.com/nano-mmdvm/Duplex_hotSPOT/raw/master/images/Nano_hotSPOT_blueBOX_frimware_UpgradeGuide_EN.jpg)   
+[View large Image](https://raw.githubusercontent.com/nano-mmdvm/MMDVM_HS_firmware/master/images/Nano_hotSPOT_blueBOX_frimware_UpgradeGuide_EN.jpg)   
  
 # 2nd Way, use install script
 This way not need rest OS,can use in hot plugin GIPO hotSPOT  
