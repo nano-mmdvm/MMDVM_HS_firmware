@@ -1,5 +1,5 @@
 # This page not maintain from 20180508, please visit my BLOG instead  
-http://mmdvm.bi7jta.org/2018/04/userguide-for-duplexhotspot-only-for.html  
+# http://mmdvm.bi7jta.org/2018/04/userguide-for-duplexhotspot-only-for.html  
 
 # Upgrade Duplex hotSPOT firmware Raspberry Pi 3B or Pi ZERO   
 *NOTE: Now 3.4.11 not support use pistar-* upgrade GPIO Type Duplex,maybe come soon   
